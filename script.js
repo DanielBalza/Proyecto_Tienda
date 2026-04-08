@@ -1,9 +1,11 @@
 // 1. se definen variables 
+console.log("¡El archivo JS se cargo correctamente!");
+
 let cantidadCarrito = 0;
 let totalPrecio = 0;
 
 // 2. se definen funciones
-function añadirAlJuego(nombre, precio) {
+function agregarAlJuego(nombre, precio) {
     // Sumamos 1 a la cantidad
     cantidadCarrito++;
 
