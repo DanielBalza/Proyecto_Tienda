@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>The Digital Gallery</title>
+    <title>Stadium Gaming Store</title>
     <meta name="Description" content="Encuentra los mejores ofertas de videojuegos, consolas y pc.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#09F">
     <!-- OPEN GRAFH -->
-    <meta property="og:title" content="The Digital Gallery - Inicio">
+    <meta property="og:title" content="Stadium Gaming Store - Inicio">
     <meta property="og:description" content="Donde los mundos cobran vida. Encuentra tus videojuegos favoritos, las mejores ofertas y el respaldo de una comunidad que entiende lo que significa ser un gamer. ¡Equípate con nosotros!">
     <meta property="og:image" content="./imagenes/FondoEmpleo.webp">
     <meta property="og:image:alt" content="una fotografia de fondo de videojuegos.">
@@ -19,51 +19,44 @@
 <body>
 
     <header class="main-header">
-        <h1><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-device-gamepad-2">
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-device-gamepad-2">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4" />
             <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232" />
-            <path d="M8 9v2" /><path d="M7 10h2" /><path d="M14 10h2" /></svg>The Digital Gallery</h1>
+            <path d="M8 9v2" /><path d="M7 10h2" /><path d="M14 10h2" /></svg> Stadium Gaming Store</h2>
 
-            
+
         <nav class="nav-Links">
-            <a href="#">Inicio</a>
-            <a href="#">Catalogo</a>
-            <a href="#">Ofertas</a>
-            <a href="#">Mi Cuenta</a>
+            <a href="#">ACCION</a>
+            <a href="#">RPG</a>
+            <a href="#">ESTRATEGIA</a>
+            <a href="#">AVENTURA</a>
         </nav>
-        <div class="cart-status">
-            <span class="cart-icon">🛒</span>
-            <span id="contador-carrito" class="badge">0</span>
-            <span class="total-header">$<span id="total-precio">0.00</span></span>
+
+        <div>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M17 17h-11v-14h-2" /><path d="M6 5l14 1l-1 7h-13" /></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user-circle">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                <path d="M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" /></svg></a>
         </div>
+
     </header>
 
+    <main>
+        <img src="./imagenes/fondoWeb.png" width="200" />
+        <h3 class="subtituloP">Donde los mundos cobran vida</h3>
+        <h1>Bienvenido a Stadium Gaming Store</h1>
+        <h3 class="subtituloS">Encuentra tus videojuegos favoritos, las mejores ofertas y el respaldo de una comunidad que entiende lo que significa ser un gamer. ¡Equípate con nosotros!</h3>
 
-    <h1>Explora los mejores titulos</h1>
+    </main>
 
-    <div class="tienda-container">
-        <div class="card">
-            <img src="https://via.placeholder.com/200x250/1c212d/00ff88?text=Halo+Infinite" alt="Halo">
-            <h3>Halo Infinite</h3>
-            <p class="precio">$59.99</p>
-            <button onclick="agregarAlJuego('Halo Infinite', 59.99)">Añadir al carrito</button>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="https://via.placeholder.com/200x250/1c212d/00ff88?text=Forza+Horizon+5" alt="Forza">
-        <h3>Forza Horizon 5</h3>
-        <p class="precio">$49.99</p>
-        <button onclick="agregarAlJuego('Forza Horizon 5', 49.99)">Añadir al carrito</button> 
-    </div>
-
-    <div class="card">
-        <img src="https://via.placeholder.com/200x250/1c212d/00ff88?text=Minecraft" alt="Minecraft">
-        <h3>Minecraft</h3>
-        <p class="precio">$26.95</p>
-        <button onclick="agregarAlJuego('Minecraft', 26.95)">Añadir al carrito</button>
-    </div>
+    
 
     <script src="script.js"></script>
 </body>
